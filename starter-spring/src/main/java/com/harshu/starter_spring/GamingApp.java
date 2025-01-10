@@ -2,6 +2,7 @@ package com.harshu.starter_spring;
 
 import com.harshu.starter_spring.game.Gamerunner;
 import com.harshu.starter_spring.game.Mario;
+import com.harshu.starter_spring.game.Pacman;
 import com.harshu.starter_spring.game.Pokemon;
 
 public class GamingApp {
@@ -17,8 +18,8 @@ public class GamingApp {
 		*/
 		var anotherGame=new Pokemon();
 		var mario=new Mario();
-		
-		var gameRunner=new Gamerunner(anotherGame);
+		var anotherGame2=new Pacman();
+		var gameRunner=new Gamerunner(anotherGame2);
 		gameRunner.run();
 	}
 	

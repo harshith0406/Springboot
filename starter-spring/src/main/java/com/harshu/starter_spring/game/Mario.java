@@ -1,6 +1,6 @@
 package com.harshu.starter_spring.game;
 
-public class Mario {
+public class Mario implements GamingConsole {
 
 	public void up() {
 		// TODO Auto-generated method stub
