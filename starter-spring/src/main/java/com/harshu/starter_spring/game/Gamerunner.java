@@ -1,15 +1,18 @@
 package com.harshu.starter_spring.game;
 
 public class Gamerunner {
+	/*
+	 here when we pass the another game to the Gamerunner since its tightly coupled to the mario class it wont work unless we change the name of mario to the Pokemon*/
 	Mario mario;
-	public Gamerunner(Mario mario) {
+	Pokemon p;
+	public Gamerunner(Pokemon p) {
 		// TODO Auto-generated constructor stub
-		this.mario=mario;
+		this.p=p;
 	}
 
 	public void run() {
-		mario.up();
-		mario.down();
-		mario.accelerate();
+		p.up();
+		p.down();
+		p.accelerate();
 	}
 }

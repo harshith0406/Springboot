@@ -17,7 +17,8 @@ public class GamingApp {
 		*/
 		var anotherGame=new Pokemon();
 		var mario=new Mario();
-		var gameRunner=new Gamerunner(mario);
+		
+		var gameRunner=new Gamerunner(anotherGame);
 		gameRunner.run();
 	}
 	
