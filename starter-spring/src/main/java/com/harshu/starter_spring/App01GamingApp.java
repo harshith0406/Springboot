@@ -5,7 +5,7 @@ import com.harshu.starter_spring.game.Mario;
 import com.harshu.starter_spring.game.Pacman;
 import com.harshu.starter_spring.game.Pokemon;
 
-public class GamingApp {
+public class App01GamingApp {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -19,7 +19,10 @@ public class GamingApp {
 		var anotherGame=new Pokemon();
 		var mario=new Mario();
 		var anotherGame2=new Pacman();
-		var gameRunner=new Gamerunner(anotherGame2);
+		var gameRunner=new Gamerunner(anotherGame);
+		/*
+		 in the above thing we are creating the object first then we are passing as a dependency to the gamingconsole/wiring it so basically we are manually creating objects and passing it but we can avoid this by making use of spring framework
+		 */
 		gameRunner.run();
 	}
 	
