@@ -1,0 +1,20 @@
+package com.harshu.starter_spring.game;
+
+public class Mario {
+
+	public void up() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void down() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void accelerate() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

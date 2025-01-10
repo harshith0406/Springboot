@@ -1,0 +1,16 @@
+package com.harshu.starter_spring;
+
+import com.harshu.starter_spring.game.Gamerunner;
+import com.harshu.starter_spring.game.Mario;
+
+public class GamingApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		var mario=new Mario();
+		var gameRunner=new Gamerunner(mario);
+		gameRunner.run();
+		
+	}
+
+}

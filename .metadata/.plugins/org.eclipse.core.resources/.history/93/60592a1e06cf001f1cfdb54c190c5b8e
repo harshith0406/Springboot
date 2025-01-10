@@ -1,0 +1,13 @@
+package com.harshu.starter_spring.game;
+
+public class Gamerunner {
+
+	public Gamerunner(Mario mario) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+}
