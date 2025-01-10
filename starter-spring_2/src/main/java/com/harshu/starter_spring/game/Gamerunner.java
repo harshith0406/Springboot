@@ -1,15 +1,14 @@
 package com.harshu.starter_spring.game;
-
+import com.harshu.starter_spring.game.Mario;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
 public class Gamerunner {
-	/*
-	 here when we pass the another game to the Gamerunner since its tightly coupled to the mario class it wont work unless we change the name of mario to the Pokemon*/
-//	Mario mario;
-//	Pokemon p;
+	
 	GamingConsole console;
-	public Gamerunner(GamingConsole console) {
+	//way to tell we need mario qualifier
+	public Gamerunner(@Qualifier("pacman")  GamingConsole console) {
 		// TODO Auto-generated constructor stub
 		this.console=console;
 	}

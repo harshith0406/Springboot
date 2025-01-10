@@ -1,4 +1,7 @@
 package com.harshu.starter_spring.game;
+import org.springframework.stereotype.Component;
+
+@Component
 
 public class Mario implements GamingConsole {
 

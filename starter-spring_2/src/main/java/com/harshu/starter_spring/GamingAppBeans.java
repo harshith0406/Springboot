@@ -1,15 +1,11 @@
 package com.harshu.starter_spring;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 import com.harshu.starter_spring.game.Gamerunner;
-import com.harshu.starter_spring.game.GamingConsole;
-import com.harshu.starter_spring.game.Mario;
-import com.harshu.starter_spring.game.Pacman;
-import com.harshu.starter_spring.game.Pokemon;
+
 
 @Configuration
 @ComponentScan("com.harshu.starter_spring.game")

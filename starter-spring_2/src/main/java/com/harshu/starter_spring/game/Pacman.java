@@ -1,5 +1,7 @@
 package com.harshu.starter_spring.game;
 
+import org.springframework.stereotype.Component;
+@Component
 public class Pacman implements GamingConsole{
 	public void up() {
 		// TODO Auto-generated method stub
