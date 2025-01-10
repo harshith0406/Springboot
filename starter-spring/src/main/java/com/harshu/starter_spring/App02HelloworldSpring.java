@@ -7,5 +7,7 @@ public class App02HelloworldSpring {
 	public static void main(String[] args) {
 		var context=new AnnotationConfigApplicationContext(HelloWorldConfig.class);
 		System.out.println(context.getBean("name"));
+		System.out.println(context.getBean("person"));
+		System.out.println(context.getBean("address"));
 	}
 }
