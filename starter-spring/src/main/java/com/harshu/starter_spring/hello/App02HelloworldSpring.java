@@ -1,4 +1,4 @@
-package com.harshu.starter_spring;
+package com.harshu.starter_spring.hello;
 
 import java.util.Arrays;
 

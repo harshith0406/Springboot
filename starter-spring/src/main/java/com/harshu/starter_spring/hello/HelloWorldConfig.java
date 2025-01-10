@@ -1,4 +1,4 @@
-package com.harshu.starter_spring;
+package com.harshu.starter_spring.hello;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -46,9 +46,6 @@ public class HelloWorldConfig {
 	public Exception ex(String name,int age) {
 		return new Exception(name,age);
 	}
-	@Bean
-	public Exception ex() {
-		return new Exception(name(),age());
-	}
+	
 		//if we have same bean name
 }

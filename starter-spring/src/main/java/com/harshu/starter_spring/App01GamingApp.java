@@ -13,7 +13,7 @@ public class App01GamingApp {
 		Concept of loose coupling
 		coupling can be defined as the work involved in changing the code
 		We must make sure the classes in java are loosely coupled and hence we can easily change as per the requirements
-		Suppose we need to add a new game to this its not easy because of the tight coupling in the code and hence we avoid by using the interfaces
+		Suppose we need to add a new game to tsshis its not easy because of the tight coupling in the code and hence we avoid by using the interfaces
 		
 		*/
 		var anotherGame=new Pokemon();
